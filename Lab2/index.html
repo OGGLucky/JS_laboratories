@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Библиотека</title>
+</head>
+
+<body>
+  <h1>Библиотека</h1>
+  <form id="loginForm">
+    <h2>Вход</h2>
+    <label for="loginUsername">Имя пользователя:</label>
+    <input type="text" id="loginUsername" name="username" required>
+    <br>
+    <label for="loginPassword">Пароль:</label>
+    <input type="password" id="loginPassword" name="password" required>
+    <br>
+    <button type="submit">Войти</button>
+  </form>
+  <form id="registerForm" style="display: none;">
+    <h2>Регистрация</h2>
+    <label for="registerUsername">Имя пользователя:</label>
+    <input type="text" id="registerUsername" name="username" required>
+    <br>
+    <label for="registerPassword">Пароль:</label>
+    <input type="password" id="registerPassword" name="password" required>
+    <br>
+    <button type="submit">Зарегистрироваться</button>
+  </form>
+  <div id="results"></div>
+  <div id="userBooks"></div>
+  <div id="lateCount"></div>
+
+  <div>
+    <label for="registrationToggle">Регистрация</label>
+    <input type="checkbox" id="registrationToggle">
+  </div>
+
+  <script src="login.js"></script>
+  <script>
+    const registrationToggle = document.getElementById('registrationToggle');
+    const loginForm = document.getElementById('loginForm');
+    const registerForm = document.getElementById('registerForm');
+
+    registrationToggle.addEventListener('change', () => {
+      if (registrationToggle.checked) {
+        loginForm.style.display = 'none';
+        registerForm.style.display = 'block';
+      } else {
+        loginForm.style.display = 'block';
+        registerForm.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+
+</html>

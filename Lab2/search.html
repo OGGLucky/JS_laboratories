@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Библиотека - Поиск</title>
+  <style>
+    #userContainer {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="userContainer"></div>
+  <h1>Поиск книг</h1>
+  <form id="searchForm">
+    <label for="searchQuery">Поиск книги:</label>
+    <input type="text" id="searchQuery" name="query" required>
+    <select id="searchParameter" name="parameter">
+      <option value="isbn">Код ISBN</option>
+      <option value="authors">Список авторов</option>
+      <option value="editionCode">Код издания</option>
+      <option value="publisher">Издательство</option>
+      <option value="title">Наименование книги</option>
+    </select>
+    <button type="submit">Искать</button>
+  </form>
+  <ul id="results"></ul>
+  <a href="profile.html">Перейти в профиль</a>\
+  <a href="index.html">Войти в другой аккаунт</a>
+  <script src="app.js"></script>
+</body>
+</html>

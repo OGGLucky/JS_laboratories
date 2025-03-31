@@ -1,0 +1,104 @@
+{
+  "books": [
+    {
+      "isbn": "978-3-16-148410-0",
+      "authors": [
+        "Толкин Дж.Р."
+      ],
+      "editionCode": "E001",
+      "publisher": "Эпос",
+      "title": "Властелин Колец",
+      "availableCopies": 3
+    },
+    {
+      "isbn": "978-3-16-148410-1",
+      "authors": [
+        "Роулинг Дж.К."
+      ],
+      "editionCode": "E002",
+      "publisher": "Волшебная книга",
+      "title": "Гарри Поттер и философский камень",
+      "availableCopies": 0
+    },
+    {
+      "isbn": "978-3-16-148410-2",
+      "authors": [
+        "Оруэлл Дж."
+      ],
+      "editionCode": "E003",
+      "publisher": "Фьючерс Паблишерс",
+      "title": "1984",
+      "availableCopies": 5
+    },
+    {
+      "isbn": "978-3-16-148410-3",
+      "authors": [
+        "Достоевский Ф.М."
+      ],
+      "editionCode": "E004",
+      "publisher": "Русская классика",
+      "title": "Преступление и наказание",
+      "availableCopies": 2
+    },
+    {
+      "isbn": "978-3-16-148410-4",
+      "authors": [
+        "Ремарк Э. М."
+      ],
+      "editionCode": "E005",
+      "publisher": "АСТ",
+      "title": "На обратном пути",
+      "availableCopies": 9
+    },
+    {
+      "isbn": "978-3-16-148410-5",
+      "authors": [
+        "Ремарк Э. М."
+      ],
+      "editionCode": "E006",
+      "publisher": "АСТ",
+      "title": "Жизнь взаймы",
+      "availableCopies": 7
+    },
+    {
+      "isbn": "978-3-16-148410-6",
+      "authors": [
+        "Стругацкий Б.Н, Стругацкий А.Н."
+      ],
+      "editionCode": "E007",
+      "publisher": "АСТ",
+      "title": "Град обреченный",
+      "availableCopies": 1
+    },
+    {
+      "isbn": "978-3-16-148410-7",
+      "authors": [
+        "Толстой Л. Н."
+      ],
+      "editionCode": "E008",
+      "publisher": "Русская классика",
+      "title": "Война и Мир",
+      "availableCopies": 2
+    },
+    {
+      "isbn": "978-3-16-148410-8",
+      "authors": [
+        "Пушкин А. С."
+      ],
+      "editionCode": "E009",
+      "publisher": "Русская классика",
+      "title": "Евгений Онегин",
+      "availableCopies": 4
+    },
+    {
+      "isbn": "978-3-16-148410-9",
+      "authors": [
+        "Стругацкий Б.Н, Стругацкий А.Н."
+      ],
+      "editionCode": "E010",
+      "publisher": "АСТ",
+      "title": "Пикник на обочине",
+      "availableCopies": 6
+    }
+  ]
+}
